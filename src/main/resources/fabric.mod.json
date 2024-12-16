@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "pickaxe",
+  "version": "${version}",
+  "name": "Pickaxe",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/pickaxe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "KatouMegumi.pickaxe.client.PickaxeClient"
+    ],
+    "main": [
+      "KatouMegumi.pickaxe.Pickaxe"
+    ]
+  },
+  "mixins": [
+    "pickaxe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
