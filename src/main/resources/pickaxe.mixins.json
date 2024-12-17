@@ -6,6 +6,7 @@
   "mixins": [
   ],
   "client": [
+    "ui.SelectWorldScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
